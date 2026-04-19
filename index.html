@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>OnlyFans</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #0a0a0a;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      flex-direction: column;
+    }
+
+    .box {
+      text-align: center;
+    }
+
+    .logo {
+      font-size: 32px;
+      font-weight: bold;
+      color: #00aff0;
+      margin-bottom: 20px;
+    }
+
+    .loading {
+      font-size: 18px;
+      opacity: 0.8;
+    }
+
+    .spinner {
+      margin-top: 20px;
+      border: 4px solid #333;
+      border-top: 4px solid #00aff0;
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      animation: spin 1s linear infinite;
+    }
+
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+  </style>
+
+  <script>
+    setTimeout(function() {
+      window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
+    }, 2500); // 2,5 Sekunden Fake-Ladezeit
+  </script>
+</head>
+
+<body>
+  <div class="box">
+    <div class="logo">OnlyFans</div>
+    <div class="loading">Checking subscription...</div>
+    <div class="spinner"></div>
+  </div>
+</body>
+</html>
+<iframe width="100%" height="100%" 
+src="https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1" 
+frameborder="0" allow="autoplay"></iframe>
